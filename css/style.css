@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .heading-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     padding-bottom: 150px;
 }
@@ -48,4 +52,30 @@ section {
 
 .dream-big .half-width {
     padding-right: 5%;
+}
+
+.experiences-area {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiences-item {
+    box-shadow: 10px 10px 40px black;
+    width: 40%;
+    margin: 0 5%;
+    border-left: 5px solid;
+    padding-left: 20px;
+}
+
+#full-stack-experiences-item {
+    border-image: linear-gradient(rgb(255, 153, 116), rgb(255, 105, 76), yellow)50;
+
+}
+
+#web-dev-experiences-item {
+
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 50;
+
 }
