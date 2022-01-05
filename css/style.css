@@ -84,6 +84,11 @@ h2 {
     background-position: left;
 }
 
+.experiences-area h1,
+.contact-info h1 {
+    margin-left: 10px;
+}
+
 .experiences-item {
     box-shadow: 10px 10px 40px black;
     width: 40%;
@@ -102,6 +107,10 @@ h2 {
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 50;
 
+}
+
+.contact-info {
+    background-color: palegreen;
 }
 
 footer p {
