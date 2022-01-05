@@ -15,6 +15,29 @@ h2 {
     color: orange;
 }
 
+.menu {
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 05px 10px;
+    color: #FA6D59;
+    font-weight: 600;
+    border: 2px solid #fff;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #FA6D59
+}
+
 .flexible-container {
     display: flex;
     padding-bottom: 150px;
